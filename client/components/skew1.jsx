@@ -8,7 +8,7 @@ export default function Skew1() {
                     <div className="j-logo"></div>
                     <h2>Jason Wiesner</h2>
                     <h3>Front End Engineer</h3>
-                    <a href="#" className="project-link">See Projects</a>
+                    <a href="#skew4" className="project-link">See Projects</a>
                 </div>
             </div>
         </div>
