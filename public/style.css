@@ -1,0 +1,125 @@
+.AppContainer {
+  margin: 0;
+  padding: 0;
+  font-family: 'Calibri';
+}
+
+.AppContainer .cus-div {
+  width: 100%;
+  position: relative;
+}
+
+.AppContainer #skew1 {
+  background: url("./images/heroBackground.jpg");
+  background-size: cover;
+  background-position: center center;
+  z-index: 10;
+  height: 55vh;
+}
+
+.AppContainer #skew2 {
+  background: #c2c2c2;
+  z-index: 9;
+  height: 40vh;
+}
+
+.AppContainer #skew3 {
+  background: url("./images/shapesBackground.jpg");
+  background-size: cover;
+  background-position: 0px -500px;
+  z-index: 8;
+  height: 75vh;
+}
+
+.AppContainer #skew4 {
+  background: #c2c2c2;
+  background-size: cover;
+  background-position: center center;
+  z-index: 7;
+  height: 75vh;
+}
+
+.AppContainer #skew5 {
+  background: url("./images/patternsBackground.jpg");
+  background-size: cover;
+  background-position: center center;
+  z-index: 6;
+  height: 25vh;
+}
+
+.AppContainer .cus-div:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  z-index: -1;
+  bottom: 0;
+  content: '';
+}
+
+.AppContainer #skew1:after,
+.AppContainer #skew2:after,
+.AppContainer #skew4:after {
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+  -webkit-transform: skewY(3deg);
+          transform: skewY(3deg);
+}
+
+.AppContainer #skew3:after {
+  -webkit-transform-origin: right bottom;
+          transform-origin: right bottom;
+  -webkit-transform: skewY(-3deg);
+          transform: skewY(-3deg);
+}
+
+.AppContainer .content {
+  font-weight: bold;
+  text-align: center;
+  padding: 100px 50px;
+  overflow: hidden;
+  display: block;
+}
+
+.AppContainer .j-logo {
+  background: url("./images/j-transparent.png");
+  position: absolute;
+  top: 10px;
+  left: -30px;
+  height: 10vh;
+  width: 10%;
+  background-size: auto;
+  background-position: center center;
+  background-size: 40px;
+  background-repeat: no-repeat;
+}
+
+.AppContainer .content h2 {
+  margin: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: big john;
+  font-size: 50px;
+}
+
+.AppContainer .content h3 {
+  margin: 25px;
+  margin-bottom: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+}
+
+.AppContainer a.project-link {
+  background: lightblue;
+  border-radius: 50px;
+  height: 20px;
+  width: 20px;
+  padding: 10px 15px;
+  color: black;
+  font-size: 20px;
+}
+
+.AppContainer a.project-link:hover {
+  background: #99bfcc;
+}
+/*# sourceMappingURL=style.css.map */
