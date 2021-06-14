@@ -1,7 +1,15 @@
+body {
+    background: lightblue;
+    border: 5px solid black;
+}
+
 .AppContainer {
     margin: 0;
     padding: 0;
     font-family: 'Calibri';
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     .cus-div {
         width: 100%;
         position: relative;
@@ -11,26 +19,26 @@
         background-size: cover;
         background-position: center center;
         z-index: 10;
-        height: 55vh;
+        height: 50vh;
     }
     #skew2 {
         background: #c2c2c2;
         z-index: 9;
-        height: 40vh;
+        height: 80vh;
     }
     #skew3 {
         background: url('./images/shapesBackground.jpg');
         background-size: cover;
         background-position: 0px -500px;
         z-index: 8;
-        height: 75vh;
+        height: 55vh;
     }
     #skew4 {
         background: #c2c2c2;
         background-size: cover;
         background-position: center center;
         z-index: 7;
-        height: 75vh;
+        height: 55vh;
     }
     #skew5 {
         background: url('./images/patternsBackground.jpg');
@@ -67,9 +75,9 @@
     }
     .j-logo {
         background: url('./images/j-transparent.png');
-        position: absolute;
-        top: 10px;
-        left: -30px;
+        position: relative;
+        top: -80px;
+        left: -5%;
         height: 10vh;
         width: 10%;
         background-size: auto;
@@ -77,11 +85,71 @@
         background-size: 40px;
         background-repeat: no-repeat;
     }
+    .javascript-logo {
+        background: url('./images/javascript-logo.png');
+        position: relative;
+        top: 0;
+        left: 200px;
+        height: 200px;
+        width: 15%;
+        background-size: auto;
+        background-position: center center;
+        background-size: 150px;
+        background-repeat: no-repeat;
+    }
+    .react-logo {
+        background: url('./images/react-logo.png');
+        position: relative;
+        bottom: 205px;
+        left: 430px;
+        height: 200px;
+        width: 15%;
+        background-size: auto;
+        background-position: center center;
+        background-size: 350px;
+        background-repeat: no-repeat;
+    }
+    .node-logo {
+        background: url('./images/node-logo.png');
+        position: relative;
+        bottom: 400px;
+        left: 680px;
+        height: 200px;
+        width: 15%;
+        background-size: auto;
+        background-position: center center;
+        background-size: 180px;
+        background-repeat: no-repeat;
+    }
+    .express-logo {
+        background: url('./images/express-logo.png');
+        position: relative;
+        bottom: 600px;
+        left: 920px;
+        height: 200px;
+        width: 15%;
+        background-size: auto;
+        background-position: center center;
+        background-size: 160px;
+        background-repeat: no-repeat;
+    }
+    .jason-pic {
+        background: url('./images/jason.jpg');
+        position: absolute;
+        top: 2px;
+        left: 1007.5%;
+        height: 90px;
+        width: 75px;
+        background-position: -7.5px -4px;
+        background-size: 120%;
+        background-repeat: no-repeat;
+        border-radius: 100px;
+    }
     .content h2 {
         margin: 0;
         color: #fff;
         text-transform: uppercase;
-        font-family: big john;
+        font-family: 'Times New Roman', Times, serif;
         font-size: 50px;
     }
     .content h3 {
@@ -90,16 +158,46 @@
         font-family:'Times New Roman', Times, serif;
         font-size: 35px;
     }
-    a.project-link {
+    .content a {
         background: lightblue;
-        border-radius: 50px;
+        border-radius: 5px;
         height: 20px;
         width: 20px;
-        padding: 10px 15px;
+        padding: 10px 20px;
         color: black;
         font-size: 20px;
+        text-decoration: none;
     }
-    a.project-link:hover {
+    .content a:hover {
         background: rgb(153, 191, 204);
+    }
+    .content p {
+        padding: 0 300px;
+        line-height: 1.5;
+        color: #000;
+        font-size: 20px;
+    }
+    #skew2 p {
+        color: #fff;
+        margin-bottom: 35px;
+    }
+    #skew2 {
+        margin-top: -20px;
+    }
+    #skew3 h3 {
+        padding-left: 210px;
+        font-size: 30px;
+        margin-top: -10px;
+    }
+    #skew3 p {
+        margin: 5px 0 0 160px;
+        color: #fff;
+        width: 50%;
+    }
+    #skew1 h2 {
+        margin-top: -25px;
+    }
+    #skew1 h3 {
+        text-shadow: 1px 1px 0 #fff;
     }
 }

@@ -5,7 +5,7 @@ export default function Skew4() {
         <div className="wrapper">
             <div id="skew4" className="cus-div">
                 <div className="content">
-                    <h3>Header Text</h3>
+                    <h3>Front End Projects</h3>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque sit corrupti nihil adipisci, qui praesentium nobis ratione aliquid dolore veritatis laborum animi delectus illum saepe.
                     </p>
