@@ -1,3 +1,3 @@
 # portfolio
 
-Add Html, Github, CSS, & SCSS logos
+Add Html, CSS, SCSS, Redux, & Github logos
