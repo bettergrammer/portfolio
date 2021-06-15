@@ -7,7 +7,7 @@ export default function Projects() {
             <ProjectCard id={"card1"}
             title={"Reset"}
             description={`Full-stack, dynamic, single-page React app that allows users to effortlessly set, track, and achieve their meditation goals through an intuitive front-end UI`}
-            techUsed={['React', 'Redux', 'HTML|CSS', 'SCSS']}
+            techUsed={['React', 'Redux', 'HTML|CSS', 'SCSS', 'NODE.JS|EXPRESS', 'MYSQL']}
             />
             <ProjectCard id={"card2"}
             title={"The Success Factory"}
