@@ -20,6 +20,56 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 
 /***/ }),
 
+/***/ "./client/components/carddescription.jsx":
+/*!***********************************************!*\
+  !*** ./client/components/carddescription.jsx ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ CardDescription)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction CardDescription(_ref) {\n  var description = _ref.description;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"project-card-description\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, description));\n}\n;\n\n//# sourceURL=webpack://portfolio/./client/components/carddescription.jsx?");
+
+/***/ }),
+
+/***/ "./client/components/cardtechused.jsx":
+/*!********************************************!*\
+  !*** ./client/components/cardtechused.jsx ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ CardTechUsed)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction CardTechUsed(_ref) {\n  var techUsed = _ref.techUsed;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"project-card-tech-used\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"ul\", null, techUsed.map(function (tech, i) {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"li\", {\n      key: i,\n      className: \"tech-li\"\n    }, tech);\n  })));\n}\n;\n\n//# sourceURL=webpack://portfolio/./client/components/cardtechused.jsx?");
+
+/***/ }),
+
+/***/ "./client/components/cardtitle.jsx":
+/*!*****************************************!*\
+  !*** ./client/components/cardtitle.jsx ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ CardTitle)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction CardTitle(_ref) {\n  var id = _ref.id,\n      title = _ref.title;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    id: id,\n    className: \"project-card-title\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h2\", null, title));\n}\n;\n\n//# sourceURL=webpack://portfolio/./client/components/cardtitle.jsx?");
+
+/***/ }),
+
+/***/ "./client/components/projectcard.jsx":
+/*!*******************************************!*\
+  !*** ./client/components/projectcard.jsx ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ ProjectCard)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _cardtitle_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cardtitle.jsx */ \"./client/components/cardtitle.jsx\");\n/* harmony import */ var _carddescription_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./carddescription.jsx */ \"./client/components/carddescription.jsx\");\n/* harmony import */ var _cardtechused_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./cardtechused.jsx */ \"./client/components/cardtechused.jsx\");\n\n\n\n\nfunction ProjectCard(_ref) {\n  var id = _ref.id,\n      title = _ref.title,\n      description = _ref.description,\n      _ref$techUsed = _ref.techUsed,\n      techUsed = _ref$techUsed === void 0 ? [] : _ref$techUsed;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"project-card-container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_cardtitle_jsx__WEBPACK_IMPORTED_MODULE_1__.default, {\n    title: (id, title)\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_carddescription_jsx__WEBPACK_IMPORTED_MODULE_2__.default, {\n    description: description\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_cardtechused_jsx__WEBPACK_IMPORTED_MODULE_3__.default, {\n    techUsed: techUsed\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", {\n    type: \"button\"\n  }, \"DEMO\"));\n}\n;\n\n//# sourceURL=webpack://portfolio/./client/components/projectcard.jsx?");
+
+/***/ }),
+
+/***/ "./client/components/projects.jsx":
+/*!****************************************!*\
+  !*** ./client/components/projects.jsx ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Projects)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _projectcard_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./projectcard.jsx */ \"./client/components/projectcard.jsx\");\n\n\nfunction Projects() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"projects-container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_projectcard_jsx__WEBPACK_IMPORTED_MODULE_1__.default, {\n    id: \"card1\",\n    title: \"Example Title\",\n    description: \"Sample Description of what this project is and the highlights of what I did. Extra text to see how it will look in the card.\",\n    techUsed: ['React', 'Redux', 'HTML|CSS', 'SCSS']\n  }));\n}\n;\n\n//# sourceURL=webpack://portfolio/./client/components/projects.jsx?");
+
+/***/ }),
+
 /***/ "./client/components/skew1.jsx":
 /*!*************************************!*\
   !*** ./client/components/skew1.jsx ***!
@@ -56,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Skew4)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction Skew4() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"wrapper\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    id: \"skew4\",\n    className: \"cus-div\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"content\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h3\", null, \"Front End Projects\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque sit corrupti nihil adipisci, qui praesentium nobis ratione aliquid dolore veritatis laborum animi delectus illum saepe.\"))));\n}\n;\n\n//# sourceURL=webpack://portfolio/./client/components/skew4.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Skew4)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _projects_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./projects.jsx */ \"./client/components/projects.jsx\");\n\n\nfunction Skew4() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"wrapper\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    id: \"skew4\",\n    className: \"cus-div\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"content\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h3\", null, \"Project Portfolio\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_projects_jsx__WEBPACK_IMPORTED_MODULE_1__.default, null))));\n}\n;\n\n//# sourceURL=webpack://portfolio/./client/components/skew4.jsx?");
 
 /***/ }),
 

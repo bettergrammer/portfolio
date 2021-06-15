@@ -14,5 +14,5 @@ export default function Skew1() {
                 </div>
             </div>
         </div>
-    )
+    );
 };
