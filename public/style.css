@@ -50,7 +50,7 @@ body {
   background-size: cover;
   background-position: center center;
   z-index: 7;
-  height: 100vh;
+  height: 120vh;
 }
 
 .AppContainer #skew5 {
@@ -255,13 +255,12 @@ body {
 }
 
 .AppContainer .project-card-container {
-  margin: 0;
-  padding: 0;
   border: 1px solid black;
   background: white;
-  height: 440px;
+  height: 500px;
+  max-height: 500px;
   width: 20vw;
-  min-width: 20%;
+  min-width: 250px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -269,10 +268,12 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  overflow: auto;
+  overflow: noscroll;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   -webkit-box-shadow: 5px 5px 0 black;
           box-shadow: 5px 5px 0 black;
+  padding-bottom: 20px;
+  margin: 0 20px;
 }
 
 .AppContainer .project-card-container h2 {
@@ -292,12 +293,11 @@ body {
       align-self: center;
   background: burlywood;
   z-index: 6;
-  height: 10vh;
-  padding: 10px;
+  height: 50px;
 }
 
 .AppContainer .project-card-container p {
-  padding: 5px;
+  padding: 7px;
   position: relative;
   left: 0px;
   font-size: 15px;
@@ -308,7 +308,7 @@ body {
   left: -20px;
   top: -10px;
   list-style: none;
-  padding: 0px;
+  padding: 5px;
 }
 
 .AppContainer .project-card-container button {
@@ -325,10 +325,21 @@ body {
   -ms-flex-item-align: center;
       align-self: center;
   min-height: 9%;
-  width: 20%;
   min-width: 45%;
   display: flex;
   font-size: 20px;
-  margin-bottom: 200px;
+  -webkit-box-shadow: 2.5px 2.5px 0 black;
+          box-shadow: 2.5px 2.5px 0 black;
+  border-radius: 15px;
+  left: 0;
+  top: 100px;
+}
+
+.AppContainer .project-card-container button:hover {
+  background: lightgrey;
+}
+
+.AppContainer .project-card-container .project-card-tech-used {
+  height: 90px;
 }
 /*# sourceMappingURL=style.css.map */

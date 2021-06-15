@@ -6,7 +6,7 @@ export default function Projects() {
         <div className="projects-container">
             <ProjectCard id={"card1"}
             title={"Reset"}
-            description={"Sample Description of what this project is and the highlights of what I did. Extra text to see how it will look in the card."}
+            description={`Full-stack, dynamic, single-page React app that allows users to effortlessly set, track, and achieve their meditation goals through an intuitive front-end UI`}
             techUsed={['React', 'Redux', 'HTML|CSS', 'SCSS']}
             />
             <ProjectCard id={"card2"}
