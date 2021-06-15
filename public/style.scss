@@ -38,7 +38,7 @@ body {
         background-size: cover;
         background-position: center center;
         z-index: 7;
-        height: 55vh;
+        height: 100vh;
     }
     #skew5 {
         background: url('./images/patternsBackground.jpg');
@@ -199,5 +199,60 @@ body {
     }
     #skew1 h3 {
         text-shadow: 1px 1px 0 #fff;
+    }
+    #skew4 h3 {
+        margin-top: -10px;
+    }
+    .project-card-container {
+        border: 1px solid black;
+        background: white;
+        height: 440px;
+        width: 20vw;
+        min-width: 20%;
+        display: inline-flex;
+        flex-direction: column;
+        overflow: auto;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        box-shadow: 5px 5px 0 black;
+        h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            color: black;
+            font-size: 20px;
+            align-self: center;
+            background:burlywood;
+            z-index: 6;
+            height: 10vh;
+            padding: 10px;
+        }
+        p {
+            padding: 5px;
+            position: relative;
+            left: 0px;
+            font-size: 15px;
+        }
+        li {
+            position: relative;
+            left: -20px;
+            top: -10px;
+            list-style: none;
+            padding: 0px;
+        }
+        button {
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            bottom: -20px;
+            align-self: center;
+            min-height: 9%;
+            width: 20%;
+            min-width: 45%;
+            display: flex;
+            font-size: 20px;
+            margin-bottom: 200px;
+        }
     }
 }

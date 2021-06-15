@@ -6,7 +6,7 @@ export default function CardTechUsed({ techUsed }) {
             <ul>
                 {techUsed.map((tech, i) => {
                     return (
-                        <li key={i} className={"tech-li"}>{tech}</li>
+                        <li key={i} className={"tech-li"}>{`- ${tech}`}</li>
                     )
                 })}
             </ul>
