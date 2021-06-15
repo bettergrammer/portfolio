@@ -5,17 +5,17 @@ export default function Projects() {
     return (
         <div className="projects-container">
             <ProjectCard id={"card1"}
-            title={"Example Title"}
+            title={"Reset"}
             description={"Sample Description of what this project is and the highlights of what I did. Extra text to see how it will look in the card."}
             techUsed={['React', 'Redux', 'HTML|CSS', 'SCSS']}
             />
             <ProjectCard id={"card2"}
-            title={"Example Title"}
+            title={"The Success Factory"}
             description={"Sample Description of what this project is and the highlights of what I did. Extra text to see how it will look in the card."}
             techUsed={['React', 'Redux', 'HTML|CSS', 'SCSS']}
             />
             <ProjectCard id={"card3"}
-            title={"Example Title"}
+            title={"Roomshare 2.0"}
             description={"Sample Description of what this project is and the highlights of what I did. Extra text to see how it will look in the card."}
             techUsed={['React', 'Redux', 'HTML|CSS', 'SCSS']}
             />
