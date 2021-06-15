@@ -203,6 +203,11 @@ body {
     #skew4 h3 {
         margin-top: -10px;
     }
+    .projects-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
     .project-card-container {
         border: 1px solid black;
         background: white;

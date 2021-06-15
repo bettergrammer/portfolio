@@ -9,6 +9,21 @@ export default function Projects() {
             description={"Sample Description of what this project is and the highlights of what I did. Extra text to see how it will look in the card."}
             techUsed={['React', 'Redux', 'HTML|CSS', 'SCSS']}
             />
+            <ProjectCard id={"card2"}
+            title={"Example Title"}
+            description={"Sample Description of what this project is and the highlights of what I did. Extra text to see how it will look in the card."}
+            techUsed={['React', 'Redux', 'HTML|CSS', 'SCSS']}
+            />
+            <ProjectCard id={"card3"}
+            title={"Example Title"}
+            description={"Sample Description of what this project is and the highlights of what I did. Extra text to see how it will look in the card."}
+            techUsed={['React', 'Redux', 'HTML|CSS', 'SCSS']}
+            />
+            {/* <ProjectCard id={"card4"}
+            title={"Example Title"}
+            description={"Sample Description of what this project is and the highlights of what I did. Extra text to see how it will look in the card."}
+            techUsed={['React', 'Redux', 'HTML|CSS', 'SCSS']}
+            /> */}
         </div>
     )
 };
