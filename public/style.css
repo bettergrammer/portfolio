@@ -1,6 +1,5 @@
 body {
   background: lightblue;
-  border: 5px solid black;
 }
 
 .AppContainer {
@@ -16,6 +15,7 @@ body {
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: 95vw;
 }
 
 .AppContainer .cus-div {
@@ -343,5 +343,62 @@ body {
 
 .AppContainer .project-card-container .project-card-tech-used {
   height: 90px;
+}
+
+.AppContainer .giphy-div {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 45%;
+}
+
+.AppContainer .giphy-embed {
+  position: absolute;
+}
+
+.AppContainer .module {
+  position: absolute;
+  top: 1770px;
+  left: 0;
+  background: white;
+  height: 550px;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-bottom: 500px;
+  border: 1px solid black;
+  z-index: 15;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.AppContainer .close-module {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  height: 15px;
+  width: 15px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-bottom: 3px;
+}
+
+.AppContainer .close-module:hover {
+  background: #e6e6e6;
+  cursor: default;
 }
 /*# sourceMappingURL=style.css.map */

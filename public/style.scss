@@ -1,6 +1,5 @@
 body {
     background: lightblue;
-    border: 5px solid black;
 }
 
 .AppContainer {
@@ -10,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 95vw;
     .cus-div {
         width: 100%;
         position: relative;
@@ -271,5 +271,44 @@ body {
         .project-card-tech-used {
             height: 90px;
         }
+    }
+    .giphy-div {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 45%;
+    }
+    .giphy-embed {
+        position: absolute;
+    }
+    .module {
+        position: absolute;
+        top: 1770px;
+        left: 0;
+        background: white;
+        height: 550px;
+        width: 80vw;
+        margin-left: 10vw;
+        margin-bottom: 500px;
+        border: 1px solid black;
+        z-index: 15;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .close-module {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        height: 15px;
+        width: 15px;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+        padding-bottom: 3px;
+    }
+    .close-module:hover {
+        background: rgb(230, 230, 230);
+        cursor: default;
     }
 }
