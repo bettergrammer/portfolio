@@ -11,21 +11,34 @@ import CryptoCurrencyGiphy from './components/cryptocurrencygiphy.jsx';
 import RoomShareGiphy from './components/roomsharegiphy.jsx';
 import Module from './components/module.jsx';
 
-const cards = {
+const names = {
     'button-card1': 'reset',
     'button-card2': 'theSuccessFactory',
     'button-card3': 'cryptoCurrencyChartingTool',
     'button-card4': 'roomShare2.0'
 };
 
+const sources = {
+    'reset': 'https://github.com/bettergrammer/rpt19-mvp-starter',
+    'theSuccessFactory': 'https://github.com/bettergrammer/TheSuccessFactory',
+    'cryptoCurrencyChartingTool': 'https://github.com/bettergrammer/BCC',
+    'roomShare2.0': 'https://github.com/bettergrammer/rpt19-front-end-capstone'
+}
+
 function App() {
 
     const [showModuleBool, setShowModuleBool] = useState(false);
-    const [currentProject, setCurrentProject] = useState('reset');
+    const [currentProject, setCurrentProject] = useState({name:'reset', source:'https://github.com/bettergrammer/rpt19-mvp-starter'});
 
     const showModule = (e) => {
         let id = e.target.id;
-        let project = cards[id];
+        let name = names[id];
+        let source = sources[name];
+
+        let project = {
+            name,
+            source
+        };
         setShowModuleBool(true);
         setCurrentProject(project);
     };
